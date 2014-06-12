@@ -1,0 +1,10 @@
+#desighn
+##requirements
+
+- a first name and surname
+- 2 line of adress and post code
+- a telphone number
+- date of birth
+- and an email adress
+- the user should be able to enter a surname and then retrieve and display the details for a contact
+- the user should be able to enter date of birth to retrieve and display all contacts with a birthday in a particular month
