@@ -1,9 +1,6 @@
-#task1 python code                                                                                              ca
-## python
-
-symbols = ['GBP', 'USD', 'EUR', 'JPN']
-rates = [1,2,3,4]
-def conv (value cfrom,cto)
-  answer = val ; R(cf)
-  answer = answer x R[cto]
-  Return (answer)  
+ symbols = ['GBP', 'USD', 'EUR', 'JPN']
+ rates = [1,2,3,4]
+ def conv (value cfrom,cto)
+   answer = val ; R(cf)
+   answer = answer x R[cto]
+   Return (answer)  
