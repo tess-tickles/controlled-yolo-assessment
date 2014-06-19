@@ -7,10 +7,9 @@
 #If creating a file
 if answer == "1" : 
     print (" You have selected to create an entry.")
-    # collects information
 
-    lastname = raw_input("What is the persons last name? ")
-    firstname = raw_input("What is the persons first name? ")
+    lastname = raw_input("What is the persons first name ? ")
+    firstname = raw_input("What is the persons last name ? ")
     phone = raw_input("What is the persons phone number? ")
-    email = raw_input("What is the persons email address? ")
-    address = raw_input("What is the persons address? ")
+    email = raw_input("What is the persons  address? ")
+    address = raw_input("What is the persons email address? ")
