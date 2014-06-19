@@ -1,0 +1,22 @@
+ open('addressbook.csv')as book:
+        data = book.read()
+        for line in data.split('\r\n'):
+            address= line.split(',')
+            addresses.append(address)
+#Calls the function 'getAddrs'
+getAddrs()
+
+#Welcomes you to the Address Book
+print("Welcome to the Address Book!")
+answer = raw_input("Are you creating an entry? (Press 1) \nOr, are you searching an entry? (Press 2) ")
+
+#If creating a file
+if answer == "1" : 
+    print (" You have selected to create an entry.")
+    # collects information
+
+    lastname = raw_input("What is the persons last name? ")
+    firstname = raw_input("What is the persons first name? ")
+    phone = raw_input("What is the persons phone number? ")
+    email = raw_input("What is the persons email address? ")
+    address = raw_input("What is the persons address? ")
